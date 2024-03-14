@@ -1,0 +1,37 @@
+.container{
+    padding:5px;
+    margin: 0;
+    background-color: rgba(255, 228, 196, 0.705);
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width:150px;
+    /* height:100px; */
+}
+
+.nav>ul{
+    display: flex;
+}
+
+.nav>ul>li{
+    padding:20px;
+    /* text-decoration: none; */
+    list-style-type: none;
+
+}
+
+.bgImage{
+   background-image: url("https://wi-q.cloud/b0a747e4-b654-4b66-b958-06e3cb2b722a/asset/f697e069-8b79-4d12-ba2b-f0eb63ff2642.jpg"); 
+   height: 100vh;
+   background-repeat: no-repeat;
+
+}
+
+.footer{
+    background-color: azure;
+    position: absolute;
+    bottom: 0;
+    width:100vw;
+}
